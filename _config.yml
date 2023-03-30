@@ -7,7 +7,7 @@ author:
 
 description: Assistant Professor, Marketing. I study mobile apps, mobility, and digital platforms. # description of your site
 
-url: "https://jekyll-academic.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://unnatinarang.github.io/" # The base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # The subpath of your site, e.g. /blog
 
 jekyllacademic:
@@ -18,7 +18,7 @@ jekyllacademic:
   socials:
     twitter: unnatinarang # Your twitter username
     github: unnatinarang # Your github username
-    linkedin: unavailable # Your linkedin
+    linkedin: unnatin # Your linkedin
 
 
 # No need to edit this part, however if you want to, that's fine as well
