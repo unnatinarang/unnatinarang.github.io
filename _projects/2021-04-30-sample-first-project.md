@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Sample pinned project"
-stack: "Put your stack or a short snippet here"
+title: "The Ideas Advantage: How Sharing Enhances Engagement in Massive Open Online Courses"
+stack: "(with Manjit Yadav and Aric Rindfleisch)"
 pinned: true
 order: 1
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Sample project number 2"
-stack: "HTML, SCSS, YAML, Liquid tags,"
+title: "Mobile App Introduction and Online and Offline Purchases and Product Returns"
+stack: "(with Venky Shankar)"
 pinned: false
-githublink: https://github.com/yak-fumblepack/jekyll-academic
+githublink: https://pubsonline.informs.org/doi/10.1287/mksc.2019.1169
 order: 2
 usehighlight: true
 ---
