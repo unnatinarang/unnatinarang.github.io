@@ -1,2 +1,0 @@
-# unnatinarang.github.io
-webpage
