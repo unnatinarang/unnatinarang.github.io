@@ -5,7 +5,9 @@ links:
     url: /projects
   - title: blog
     url: /blog
+    disabled: true
   - title: gallery
     url: /gallery
+    disabled: true
   - title: contact
     url: /contact
