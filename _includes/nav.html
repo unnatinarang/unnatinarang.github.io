@@ -10,19 +10,12 @@
     li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #000000}
     li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000}
     li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-<<<<<<< HEAD
-    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000dc; -webkit-text-stroke: #0000dc}
-=======
->>>>>>> parent of c2ca7c4 (nav update)
     span.s1 {-webkit-text-stroke: 0px #000000}
     span.s2 {text-decoration: underline ; font-kerning: none}
     span.s3 {font-kerning: none}
     span.Apple-tab-span {white-space:pre}
     ul.ul1 {list-style-type: disc}
-<<<<<<< HEAD
     ul.ul2 {list-style-type: circle}
-=======
->>>>>>> parent of c2ca7c4 (nav update)
   </style>
 </head>
 <body>
@@ -30,17 +23,10 @@
   <li class="li1"><span class="s1"><a href="file:///"><span class="s2">{% if site.navbar_title %} {{ site.navbar_title | replace: ' ', " " | replace: "-", " "}} {% else %} {{ site.title | replace: ' ', " "}} {% endif %}<span class="Apple-converted-space"> </span></span></a></span></li>
   <li class="li2"></li>
   <li class="li3"><span class="s1"></span><span class="s3">{% for item in site.data.nav.links %}</span></li>
-  <li class="li3"><span class="s1"></span><span class="s3">{% unless item.title == ‘blog’ %}</span></li>
-<<<<<<< HEAD
   <ul class="ul2">
     <li class="li1"><span class="s1"><a href="file:///Users/unnatinarang/Documents/GitHub/unnatinarang.github.io/_includes/%7B%7B%20item.url%20%7D%7D"><span class="s2">{{ item.title }}<span class="Apple-converted-space"> </span></span></a></span></li>
   </ul>
-  <li class="li4"><span class="s1"></span><span class="s3">{% endunless %}</span></li>
-  <li class="li3"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s3">{% endfor %}<span class="Apple-converted-space"> </span></span></li>
-=======
-  <li class="li1"><span class="s1"><a href="file:///Users/unnatinarang/Documents/GitHub/unnatinarang.github.io/_includes/%7B%7B%20item.url%20%7D%7D"><span class="s2">{{ item.title }}<span class="Apple-converted-space"> </span></span></a></span></li>
-  <li class="li3"><span class="s1"></span><span class="s3">{% endfor %}<span class="Apple-converted-space"> </span></span></li>
->>>>>>> parent of c2ca7c4 (nav update)
+  <li class="li3"><span class="s1"></span><span class="s3"><span class="Apple-tab-span">	</span>{% endfor %}<span class="Apple-converted-space"> </span></span></li>
 </ul>
 </body>
 </html>
